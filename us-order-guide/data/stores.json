@@ -1943,6 +1943,849 @@
         "1인당 $10~18 예상. 팁 불필요 (카운터 서비스).",
         "내셔널 몰에서 약 2km — 차량·우버로 이동 추천."
       ]
+    },
+    {
+      "id": "dominique-ansel-bakery",
+      "name": "Dominique Ansel Bakery",
+      "category": "bakery",
+      "region": "manhattan", "area": "downtown",
+      "address": "189 Spring St, New York, NY 10012",
+      "lat": 40.7252,
+      "lng": -74.0000,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$6~14",
+      "description": "크로넛(Cronut) 발명지. 프랑스 출신 파티시에 도미니크 앙셀의 SoHo 베이커리. 매일 한정 수량.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "크로넛은 매일 한정 수량. 온라인 예약하거나 오픈 전 줄 서기 권장.",
+          "options": [
+            { "en": "One Cronut, please.", "ko": "크로넛 하나요. (시그니처, 1인 2개 한도)", "recommended": true },
+            { "en": "DKA, please.", "ko": "DKA 주세요. (쿠이냥 아만 — 줄 없이 바로 구매 가능)", "recommended": true },
+            { "en": "Cookie shot, please.", "ko": "쿠키 샷 주세요. (밀크 채운 초콜릿칩 쿠키)" },
+            { "en": "Frozen S'more, please.", "ko": "프로즌 스모어 주세요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "For here or to go?",
+          "question_ko": "드시고 가세요, 포장이세요?",
+          "options": [
+            { "en": "For here.", "ko": "여기서 먹을게요.", "recommended": true },
+            { "en": "To go, please.", "ko": "포장이요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Cronut",
+          "name_ko": "크로넛",
+          "description_ko": "크루아상+도넛의 결합. 매달 다른 시즌 플레이버. 겹겹이 바삭한 페이스트리.",
+          "recommended": true
+        },
+        {
+          "name": "DKA (Kouign Amann)",
+          "name_ko": "DKA (쿠이냥 아만)",
+          "description_ko": "브르타뉴 전통 버터 케이크. 캐러멜라이즈된 바삭한 겉면. 크로넛 없을 때 차선책이자 그 이상.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "크로넛은 1인당 2개 한도. 온라인 예약(dominiqueansel.com) 또는 오픈 1시간 전 줄 서기.",
+        "DKA는 예약 불필요. 바로 구매 가능.",
+        "소호(SoHo) 관광 동선과 딱 맞음. 쇼핑 전후 방문 추천.",
+        "카드 OK. 팁 불필요.",
+        "주말에는 줄이 훨씬 김. 평일 오전 방문 권장."
+      ]
+    },
+    {
+      "id": "clinton-st-baking-co",
+      "name": "Clinton St. Baking Co.",
+      "category": "bakery",
+      "region": "manhattan", "area": "downtown",
+      "address": "4 Clinton St, New York, NY 10002",
+      "lat": 40.7191,
+      "lng": -73.9835,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$15~22",
+      "description": "뉴욕 1등 브런치 팬케이크. LES에 위치. 주말엔 오픈 전부터 줄이 생기는 전설적인 브런치 명소.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "Table for how many?",
+          "question_ko": "몇 분이세요?",
+          "tip": "주말 웨이팅 1~2시간. 평일 오전 방문 또는 오픈 시간(8am)에 맞춰 가기.",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": true },
+            { "en": "Just one.", "ko": "혼자요." },
+            { "en": "Three or four.", "ko": "세 명 / 네 명이요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Ready to order?",
+          "question_ko": "주문하시겠어요?",
+          "tip": "Wild Blueberry Pancakes가 시그니처. 버터밀크 팬케이크도 인기.",
+          "options": [
+            { "en": "Wild blueberry pancakes, please.", "ko": "와일드 블루베리 팬케이크 주세요. (시그니처)", "recommended": true },
+            { "en": "Buttermilk pancakes, please.", "ko": "버터밀크 팬케이크 주세요.", "recommended": true },
+            { "en": "Eggs Benedict, please.", "ko": "에그 베네딕트 주세요." },
+            { "en": "Breakfast sandwich, please.", "ko": "브렉퍼스트 샌드위치 주세요." }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "Something to drink?",
+          "question_ko": "음료는요?",
+          "options": [
+            { "en": "Coffee, please.", "ko": "커피 주세요.", "recommended": true },
+            { "en": "Fresh OJ, please.", "ko": "오렌지 주스요." },
+            { "en": "Water is fine.", "ko": "물이면 돼요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Wild Blueberry Pancakes",
+          "name_ko": "와일드 블루베리 팬케이크",
+          "description_ko": "야생 블루베리 + 메이플 버터 시럽. 팬케이크 자체가 두껍고 폭신함. 뉴욕 팬케이크 1위로 꼽히는 메뉴.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "주말 웨이팅 1~2시간. 평일 오전 8~10시 방문 강력 추천.",
+        "팬케이크 한 접시 양이 매우 많음. 1~2인이 1접시 나눠도 충분.",
+        "LES(Lower East Side) 위치 — 이스트 빌리지 관광과 연계 가능.",
+        "1인당 $20~30 예상. 카드 OK. 팁 18~20% 권장.",
+        "현금 준비하면 더 편함 (카드도 가능)."
+      ]
+    },
+    {
+      "id": "russ-and-daughters-cafe",
+      "name": "Russ & Daughters Cafe",
+      "category": "deli",
+      "region": "manhattan", "area": "downtown",
+      "address": "127 Orchard St, New York, NY 10002",
+      "lat": 40.7193,
+      "lng": -73.9886,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$18~28",
+      "description": "1914년 개업한 LES 유대인 전통 훈제연어+크림치즈 베이글 전문점. 뉴욕의 살아있는 역사.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "Table for how many?",
+          "question_ko": "몇 분이세요?",
+          "tip": "카페는 앉아서 먹는 공간. 길 건너 본점(appetizing shop)은 테이크아웃 전문.",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": true },
+            { "en": "Just one.", "ko": "혼자요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "Classic Board(훈제연어 + 크림치즈 + 베이글 세트)가 시그니처. 연어 종류를 고르는 게 핵심.",
+          "options": [
+            { "en": "The Classic Board, please.", "ko": "클래식 보드 주세요. (훈제연어+크림치즈+베이글 세트)", "recommended": true },
+            { "en": "Nova lox bagel, please.", "ko": "노바 록스 베이글 주세요. (부드러운 훈제연어)", "recommended": true },
+            { "en": "Super Heebster, please.", "ko": "수퍼 히브스터 주세요. (와사비 크림치즈+훈제연어)" }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "What kind of cream cheese?",
+          "question_ko": "크림치즈는 어떤 걸로요?",
+          "options": [
+            { "en": "Plain cream cheese.", "ko": "플레인 크림치즈요. (기본)", "recommended": true },
+            { "en": "Scallion cream cheese.", "ko": "파 크림치즈요." },
+            { "en": "Vegetable cream cheese.", "ko": "야채 크림치즈요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Nova Lox",
+          "name_ko": "노바 록스 (훈제연어)",
+          "description_ko": "차가운 훈제 방식의 연어. 부드럽고 짭짤함. 크림치즈+케이퍼+적양파와 함께.",
+          "recommended": true
+        },
+        {
+          "name": "Capers & Red Onion",
+          "name_ko": "케이퍼 & 적양파",
+          "description_ko": "훈제연어 베이글의 필수 토핑. 짭조름한 케이퍼와 매콤한 적양파가 연어 맛 완성.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "1914년 개업. 4대째 운영 중인 뉴욕 역사 명소.",
+        "카페(Cafe)와 본점(appetizing shop)은 다른 곳. 앉아서 먹으려면 Cafe로.",
+        "LES 관광 (이스트 빌리지, 클린턴 St.) 동선과 완벽히 연결.",
+        "1인당 $25~40 예상. 카드 OK. 팁 18~20% 권장.",
+        "주말 브런치 웨이팅 있음. 예약 또는 평일 방문 추천."
+      ]
+    },
+    {
+      "id": "sadelles",
+      "name": "Sadelle's",
+      "category": "bakery",
+      "region": "manhattan", "area": "downtown",
+      "address": "463 W Broadway, New York, NY 10012",
+      "lat": 40.7263,
+      "lng": -74.0012,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$18~30",
+      "description": "SoHo 인스타 감성 브런치 명소. 타워형으로 쌓아 나오는 훈제연어+베이글 세트가 시그니처.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "Do you have a reservation?",
+          "question_ko": "예약하셨나요?",
+          "tip": "주말 브런치 예약 필수. OpenTable에서 사전 예약 권장.",
+          "options": [
+            { "en": "Yes, under [name].", "ko": "네, [이름]으로 예약했어요.", "recommended": true },
+            { "en": "No, is there a wait?", "ko": "예약 없는데요. 대기 있나요?" }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Ready to order?",
+          "question_ko": "주문하시겠어요?",
+          "tip": "Lox Tower(연어 타워)가 인스타 명물. 최소 2인 이상 주문 권장.",
+          "options": [
+            { "en": "The Lox Tower, please.", "ko": "록스 타워 주세요. (훈제연어 타워 세트, 인스타 명물)", "recommended": true },
+            { "en": "Bagel with cream cheese and lox, please.", "ko": "베이글에 크림치즈랑 훈제연어 주세요.", "recommended": true },
+            { "en": "Pancakes, please.", "ko": "팬케이크 주세요." }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "Any drinks?",
+          "question_ko": "음료는요?",
+          "options": [
+            { "en": "Coffee, please.", "ko": "커피 주세요.", "recommended": true },
+            { "en": "Fresh juice, please.", "ko": "주스 주세요." },
+            { "en": "Sparkling water.", "ko": "탄산수요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Lox Tower",
+          "name_ko": "록스 타워",
+          "description_ko": "훈제연어·크림치즈·케이퍼·토마토·오이·베이글을 타워형으로 쌓아 제공. 사진 찍고 먹기.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "주말 브런치 예약 필수. 예약 없으면 1시간 이상 대기.",
+        "Lox Tower는 2인 기준 $50~60. 양은 충분.",
+        "SoHo 쇼핑 동선과 완벽히 연결. 브런치 후 쇼핑 코스 추천.",
+        "1인당 $25~40 예상. 카드 OK. 팁 18~20% 권장.",
+        "인스타 사진 명소 — Lox Tower 주문 시 세팅 사진 꼭 찍기."
+      ]
+    },
+    {
+      "id": "breads-bakery",
+      "name": "Breads Bakery",
+      "category": "bakery",
+      "region": "manhattan", "area": "downtown",
+      "address": "18 E 16th St, New York, NY 10003",
+      "lat": 40.7367,
+      "lng": -73.9910,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$5~9",
+      "description": "뉴욕 최고 바브카(초코 브레드) 명가. 이스라엘 출신 베이커가 만드는 정통 유대식 베이커리. Union Square 근처.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "초콜릿 바브카가 시그니처. 슬라이스 또는 통으로 구매 가능.",
+          "options": [
+            { "en": "Chocolate babka, please.", "ko": "초콜릿 바브카 주세요. (시그니처)", "recommended": true },
+            { "en": "Cinnamon babka, please.", "ko": "시나몬 바브카 주세요." },
+            { "en": "Cheese bourekas, please.", "ko": "치즈 부레카스 주세요. (유대식 파이)", "recommended": true },
+            { "en": "One croissant, please.", "ko": "크루아상 하나요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Slice or whole loaf?",
+          "question_ko": "슬라이스로 드릴까요, 통으로 드릴까요?",
+          "options": [
+            { "en": "A slice, please.", "ko": "슬라이스로요.", "recommended": true },
+            { "en": "A whole loaf.", "ko": "통으로요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Chocolate Babka",
+          "name_ko": "초콜릿 바브카",
+          "description_ko": "겹겹이 꼰 빵 사이에 진한 초콜릿 필링. 달콤하고 촉촉함. 뉴욕 베이커리 필수 아이템.",
+          "recommended": true
+        },
+        {
+          "name": "Cheese Bourekas",
+          "name_ko": "치즈 부레카스",
+          "description_ko": "페이스트리 반죽 안에 짭짤한 치즈 필링. 유대식 전통 파이. 아침 식사 대용으로 완벽.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "바브카는 오전에 품절되는 경우 많음. 이른 방문 권장.",
+        "통 바브카 선물용으로 구매하기 좋음. 포장 예쁨.",
+        "Union Square Greenmarket 구경 후 들르기 완벽한 동선.",
+        "카드 OK. 팁 불필요.",
+        "슬라이스 $5~6. 통 바브카 $18~22."
+      ]
+    },
+    {
+      "id": "magnolia-bakery-midtown",
+      "name": "Magnolia Bakery",
+      "category": "bakery",
+      "region": "manhattan", "area": "midtown",
+      "address": "1240 6th Ave, New York, NY 10020",
+      "lat": 40.7595,
+      "lng": -73.9800,
+      "tip_expected": false,
+      "has_seating": false,
+      "price_range": "$4~7",
+      "description": "섹스앤더시티 촬영지로 유명한 컵케이크 명소. 바나나 푸딩도 필수 메뉴. 록펠러 센터 근처.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "바나나 푸딩은 컵케이크만큼이나 유명. 꼭 같이 주문할 것.",
+          "options": [
+            { "en": "Vanilla cupcake, please.", "ko": "바닐라 컵케이크 주세요. (시그니처)", "recommended": true },
+            { "en": "Banana pudding, please.", "ko": "바나나 푸딩 주세요. (필수)", "recommended": true },
+            { "en": "Red velvet cupcake, please.", "ko": "레드벨벳 컵케이크 주세요." },
+            { "en": "Chocolate cupcake, please.", "ko": "초콜릿 컵케이크 주세요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Anything else?",
+          "question_ko": "다른 건요?",
+          "options": [
+            { "en": "That's all, thank you.", "ko": "이게 다예요, 감사합니다.", "recommended": true },
+            { "en": "One more cupcake please.", "ko": "컵케이크 하나 더요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Vanilla Cupcake",
+          "name_ko": "바닐라 컵케이크",
+          "description_ko": "부드러운 바닐라 케이크 + 듬뿍 올린 버터크림 프로스팅. 섹스앤더시티 시즌2 등장 메뉴.",
+          "recommended": true
+        },
+        {
+          "name": "Banana Pudding",
+          "name_ko": "바나나 푸딩",
+          "description_ko": "바나나 슬라이스 + 바닐라 웨이퍼 + 부드러운 크림. 컵케이크보다 더 유명하다는 말도 있음.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "록펠러 센터·탑 오브 더 록 관광 동선에 딱 맞음.",
+        "컵케이크 1개 $4~5. 바나나 푸딩 $5~6.",
+        "앉아서 먹는 공간 없음. 걸어 다니며 먹기.",
+        "카드 OK. 팁 불필요.",
+        "웨스트 빌리지 본점(Bleecker St)도 유명하지만 미드타운 지점이 관광 동선에 편함."
+      ]
+    },
+    {
+      "id": "juniors-restaurant",
+      "name": "Junior's Restaurant",
+      "category": "other",
+      "region": "manhattan", "area": "midtown",
+      "address": "1515 Broadway, New York, NY 10036",
+      "lat": 40.7582,
+      "lng": -73.9856,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$10~20",
+      "description": "1950년 브루클린 개업. 뉴욕 3대 치즈케이크. 타임스퀘어 지점으로 관광 동선에 딱.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "Table for how many?",
+          "question_ko": "몇 분이세요?",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": true },
+            { "en": "Just one.", "ko": "혼자요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "What can I get you?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "Original Plain Cheesecake가 시그니처. 한 조각도 양이 매우 많음.",
+          "options": [
+            { "en": "Original cheesecake, please.", "ko": "오리지널 치즈케이크 주세요. (시그니처)", "recommended": true },
+            { "en": "Strawberry cheesecake, please.", "ko": "딸기 치즈케이크 주세요." },
+            { "en": "Cheesecake and a coffee.", "ko": "치즈케이크랑 커피요.", "recommended": true }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Original Plain Cheesecake",
+          "name_ko": "오리지널 플레인 치즈케이크",
+          "description_ko": "진하고 크리미한 뉴욕 스타일 치즈케이크. 그레이엄 크래커 베이스. 달지 않고 부드러움.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "타임스퀘어 바로 옆 — 공연·쇼핑 전후 방문하기 완벽.",
+        "치즈케이크 한 조각 양이 매우 많음. 2인이 1조각 나눠도 충분.",
+        "홀 케이크 포장 구매 가능. 선물용으로 좋음.",
+        "1인당 $15~25 예상. 카드 OK. 팁 18~20% 권장.",
+        "브루클린 본점이 원조지만 타임스퀘어 지점이 관광 동선에 편함."
+      ]
+    },
+    {
+      "id": "jongro-bbq",
+      "name": "Jongro BBQ",
+      "category": "other",
+      "region": "manhattan", "area": "midtown",
+      "address": "22 W 32nd St, New York, NY 10001",
+      "lat": 40.7484,
+      "lng": -73.9877,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$25~40",
+      "description": "뉴욕 코리아타운(32번가) 대표 한국 고기집. 숯불+고기 굽는 인기 맛집. 한국 음식이 그리울 때.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "How many in your party?",
+          "question_ko": "몇 분이세요?",
+          "tip": "코리아타운 32번가는 한국 식당 밀집 지역. 예약 없어도 입장 가능하지만 저녁엔 웨이팅.",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": true },
+            { "en": "Four, please.", "ko": "네 명이요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "What meat would you like to start?",
+          "question_ko": "어떤 고기로 시작하시겠어요?",
+          "tip": "삼겹살+갈비 조합이 인기. 점원이 대신 구워주는 경우도 있음.",
+          "options": [
+            { "en": "Samgyeopsal (pork belly), please.", "ko": "삼겹살 주세요.", "recommended": true },
+            { "en": "Galbi (short rib), please.", "ko": "갈비 주세요.", "recommended": true },
+            { "en": "Bulgogi, please.", "ko": "불고기 주세요." }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "Any sides or drinks?",
+          "question_ko": "사이드나 음료는요?",
+          "options": [
+            { "en": "Doenjang jjigae, please.", "ko": "된장찌개 주세요.", "recommended": true },
+            { "en": "Soju, please.", "ko": "소주 주세요." },
+            { "en": "Just water for now.", "ko": "일단 물만요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Ssamjang",
+          "name_ko": "쌈장",
+          "description_ko": "고기 쌈 싸먹을 때 바르는 된장+고추장 혼합 소스. 기본 제공.",
+          "recommended": true
+        },
+        {
+          "name": "Sesame Oil + Salt",
+          "name_ko": "참기름 + 소금",
+          "description_ko": "삼겹살을 참기름+소금에 찍어 먹는 방식. 가장 기본적인 조합.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "코리아타운 32번가는 24시간 한식 식당 밀집. 늦은 밤도 영업.",
+        "한국어로 주문 가능! 직원 중 한국어 구사자 있음.",
+        "1인당 $30~50 예상. 카드 OK. 팁 18~20% 권장.",
+        "한국 음식이 그리울 때, 또는 외국인 동행에게 한식 소개할 때 추천.",
+        "근처 Paris Baguette, 뚜레쥬르, 한국 마트도 있음."
+      ]
+    },
+    {
+      "id": "cafe-lalo",
+      "name": "Cafe Lalo",
+      "category": "coffee",
+      "region": "manhattan", "area": "uptown",
+      "address": "201 W 83rd St, New York, NY 10024",
+      "lat": 40.7853,
+      "lng": -73.9800,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$8~14",
+      "description": "1988년 개업. 영화 You've Got Mail(유브 갓 메일) 촬영지. 유럽 감성 디저트 카페. UWS 아이콘.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "Table for how many?",
+          "question_ko": "몇 분이세요?",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": true },
+            { "en": "Just one.", "ko": "혼자요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "What can I get you?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "케이크·타르트 종류가 많음. 진열장 보면서 직접 고르기.",
+          "options": [
+            { "en": "A slice of cake and a coffee, please.", "ko": "케이크 한 조각이랑 커피 주세요.", "recommended": true },
+            { "en": "Cappuccino, please.", "ko": "카푸치노 주세요.", "recommended": true },
+            { "en": "Hot chocolate and a tart.", "ko": "핫초코랑 타르트요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "European Cakes",
+          "name_ko": "유럽식 케이크",
+          "description_ko": "진열장에 30가지 이상 케이크·타르트. 눈으로 보고 원하는 것 고르기.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "You've Got Mail(1998, 톰 행크스·멕 라이언) 촬영지. 영화 팬이라면 필수 방문.",
+        "센트럴 파크·자연사 박물관·Met 관광 동선에 딱 맞음.",
+        "주말 저녁엔 웨이팅. 오후 2~4시 방문 추천.",
+        "1인당 $15~20 예상. 카드 OK. 팁 18~20% 권장.",
+        "디저트 종류가 매우 많아서 고르는 재미가 있음."
+      ]
+    },
+    {
+      "id": "hungarian-pastry-shop",
+      "name": "Hungarian Pastry Shop",
+      "category": "bakery",
+      "region": "manhattan", "area": "uptown",
+      "address": "1030 Amsterdam Ave, New York, NY 10025",
+      "lat": 40.8041,
+      "lng": -73.9637,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$3~6",
+      "description": "1961년 개업. 컬럼비아대 앞 유럽식 카페. 소박하지만 수십 년째 변하지 않는 분위기가 매력.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "셀프 주문 방식. 카운터에서 고르고 계산.",
+          "options": [
+            { "en": "Coffee and a pastry, please.", "ko": "커피랑 페이스트리 주세요.", "recommended": true },
+            { "en": "Cappuccino, please.", "ko": "카푸치노 주세요." },
+            { "en": "A slice of strudel, please.", "ko": "슈트루델 한 조각요.", "recommended": true }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Apple Strudel",
+          "name_ko": "사과 슈트루델",
+          "description_ko": "얇은 페이스트리 반죽에 사과+계피 필링. 오스트리아·헝가리 전통 과자.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "컬럼비아 대학교 바로 앞. 대학 캠퍼스 구경과 함께 방문 추천.",
+        "현금 선호. 소액 현금 준비.",
+        "노트북 펴고 오래 앉아 있는 학생·작가들로 가득한 보헤미안 분위기.",
+        "1인 $5~8로 충분. 뉴욕에서 가장 저렴하고 여유로운 카페 경험.",
+        "인스타 감성보다는 뉴욕의 진짜 일상 분위기를 느끼고 싶을 때 추천."
+      ]
+    },
+    {
+      "id": "zabars",
+      "name": "Zabar's",
+      "category": "deli",
+      "region": "manhattan", "area": "uptown",
+      "address": "2245 Broadway, New York, NY 10024",
+      "lat": 40.7842,
+      "lng": -73.9812,
+      "tip_expected": false,
+      "has_seating": false,
+      "price_range": "$5~12",
+      "description": "1934년 개업한 UWS 전설의 델리+푸드 마켓. 훈제연어·치즈·커피·베이글 등 뉴욕 현지인 생활 필수 코스.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What can I get for you?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "카운터마다 담당 품목이 다름. 훈제연어는 Appetizing 카운터, 샌드위치는 Deli 카운터.",
+          "options": [
+            { "en": "Lox on a bagel, please.", "ko": "베이글에 훈제연어 주세요.", "recommended": true },
+            { "en": "A smoked fish platter, please.", "ko": "훈제 생선 플래터 주세요.", "recommended": true },
+            { "en": "What coffee do you have?", "ko": "커피 어떤 거 있어요?" }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Anything else?",
+          "question_ko": "다른 건 없으세요?",
+          "options": [
+            { "en": "That's all, thanks.", "ko": "이게 다예요.", "recommended": true },
+            { "en": "A rugelach too, please.", "ko": "루겔라흐도 주세요. (유대식 과자)", "recommended": true }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Rugelach",
+          "name_ko": "루겔라흐",
+          "description_ko": "초콜릿·잼·견과류를 채운 유대식 크루아상 과자. 한 입 크기. 달콤하고 바삭함.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "마트+델리 복합 공간. 1층은 식품 마켓, 카운터는 즉석 음식 주문.",
+        "센트럴 파크 72번가에서 도보 10분.",
+        "루겔라흐·훈제연어를 포장해서 센트럴 파크 벤치에서 먹기 추천.",
+        "현금+카드 모두 가능.",
+        "뉴욕 현지인의 실제 장보기 문화 체험. 여행자보다 주민이 많은 곳."
+      ]
+    },
+    {
+      "id": "new-world-mall-food-court",
+      "name": "New World Mall Food Court",
+      "category": "other",
+      "region": "queens",
+      "address": "136-20 Roosevelt Ave B1, Flushing, NY 11354",
+      "lat": 40.7576,
+      "lng": -73.8309,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$8~15",
+      "description": "플러싱 New World Mall 지하 1층 대형 푸드코트. 중식·한식·대만·동남아 음식 총집합. 아시아 여행자 성지.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "각 부스마다 별도 주문. 돌아다니며 원하는 곳에서 주문·계산.",
+          "options": [
+            { "en": "One bowl of beef noodle soup.", "ko": "우육면 한 그릇 주세요. (대만식 소고기 국수)", "recommended": true },
+            { "en": "Scallion pancake, please.", "ko": "파전(총유빙) 주세요.", "recommended": true },
+            { "en": "Pork chop rice, please.", "ko": "돼지갈비 덮밥 주세요." },
+            { "en": "Bubble tea, please.", "ko": "버블티 주세요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Beef Noodle Soup",
+          "name_ko": "우육면 (소고기 국수)",
+          "description_ko": "대만식 진한 소고기 국물 국수. 스파이시 버전 추천. 플러싱 푸드코트 1등 메뉴.",
+          "recommended": true
+        },
+        {
+          "name": "Scallion Pancake",
+          "name_ko": "총유빙 (파전)",
+          "description_ko": "겹겹이 바삭한 중국식 파전. 간장 소스에 찍어 먹기.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "플러싱 메인스트리트 역(7호선) 도보 3분. New World Mall 지하로 내려가면 바로.",
+        "점심 피크(12~1시)엔 자리 경쟁. 11시~11시30분 방문 추천.",
+        "현금 선호 부스 많음. $20 현금 준비 권장.",
+        "팁 불필요.",
+        "Xi'an Famous Foods, Joe's Shanghai 방문 후 디저트·간식 투어로 연계 추천."
+      ]
+    },
+    {
+      "id": "blue-bottle-coffee-nyc",
+      "name": "Blue Bottle Coffee",
+      "category": "coffee",
+      "region": "manhattan", "area": "downtown",
+      "address": "450 W 15th St, New York, NY 10011",
+      "lat": 40.7420,
+      "lng": -74.0047,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$5~8",
+      "description": "스페셜티 커피의 상징. 한국에도 있지만 NYC가 발상지. 미니멀한 공간과 정성스런 핸드드립으로 유명.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What can I get for you?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "New Orleans Iced Coffee가 시그니처. 핸드드립도 추천.",
+          "options": [
+            { "en": "New Orleans Iced Coffee, please.", "ko": "뉴올리언스 아이스 커피 주세요. (시그니처)", "recommended": true },
+            { "en": "Single origin pour-over, please.", "ko": "싱글 오리진 핸드드립 주세요.", "recommended": true },
+            { "en": "Latte, please.", "ko": "라떼 주세요." },
+            { "en": "Cappuccino, please.", "ko": "카푸치노 주세요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Hot or iced?",
+          "question_ko": "따뜻하게요, 아이스로요?",
+          "options": [
+            { "en": "Iced, please.", "ko": "아이스로요.", "recommended": true },
+            { "en": "Hot, please.", "ko": "따뜻하게요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "New Orleans Iced Coffee",
+          "name_ko": "뉴올리언스 아이스 커피",
+          "description_ko": "치커리 블렌드 커피를 콜드브루 방식으로 추출 + 유기농 우유. 달콤하고 부드러움. 대표 메뉴.",
+          "recommended": true
+        },
+        {
+          "name": "Single Origin Pour-Over",
+          "name_ko": "싱글 오리진 핸드드립",
+          "description_ko": "원산지 단일 원두를 핸드드립으로. 원두의 개성을 그대로 느끼는 스페셜티 커피.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "미트패킹/첼시 지점 — 하이라인 관광 후 들르기 딱 좋은 동선.",
+        "NYC에 여러 지점 있음 (Bryant Park, Rockefeller 등). 가장 가까운 지점 방문.",
+        "커피 한 잔에 $5~7. 카드 OK. 팁 불필요.",
+        "한국 블루보틀과 메뉴 거의 동일하지만 NYC 본토 감성이 다름.",
+        "대화 없이 조용히 집중해서 마시는 분위기."
+      ]
+    },
+    {
+      "id": "intelligentsia-coffee-chelsea",
+      "name": "Intelligentsia Coffee",
+      "category": "coffee",
+      "region": "manhattan", "area": "downtown",
+      "address": "75 9th Ave, New York, NY 10011 (Chelsea Market 내)",
+      "lat": 40.7424,
+      "lng": -74.0048,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$5~8",
+      "description": "스페셜티 커피 선구자. 첼시 마켓 내부에 위치해 관광 동선과 완벽히 일치. 직접 계약 원두 사용.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What would you like?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "Black Cat Espresso가 시그니처 블렌드. 라떼에 사용하면 고소하고 묵직한 맛.",
+          "options": [
+            { "en": "Latte, please.", "ko": "라떼 주세요.", "recommended": true },
+            { "en": "Black Cat Americano, please.", "ko": "블랙캣 아메리카노 주세요.", "recommended": true },
+            { "en": "Pour-over, please.", "ko": "핸드드립 주세요." },
+            { "en": "Cold brew, please.", "ko": "콜드브루 주세요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Hot or iced?",
+          "question_ko": "따뜻하게요, 아이스로요?",
+          "options": [
+            { "en": "Iced, please.", "ko": "아이스로요.", "recommended": true },
+            { "en": "Hot, please.", "ko": "따뜻하게요." }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "Milk preference?",
+          "question_ko": "우유는요?",
+          "options": [
+            { "en": "Whole milk.", "ko": "일반 우유요.", "recommended": true },
+            { "en": "Oat milk, please.", "ko": "오트밀크요." },
+            { "en": "Almond milk, please.", "ko": "아몬드밀크요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Black Cat Espresso",
+          "name_ko": "블랙캣 에스프레소",
+          "description_ko": "Intelligentsia 대표 블렌드. 다크초콜릿·카라멜 풍미. 라떼·아메리카노 모두 잘 어울림.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "첼시 마켓(Chelsea Market) 안에 위치 — 마켓 구경과 커피 한 잔을 동시에.",
+        "하이라인 입구 바로 옆 — 하이라인 산책 전후 방문 완벽.",
+        "커피 한 잔 $5~7. 카드 OK. 팁 불필요.",
+        "Los Tacos No.1도 첼시 마켓 안에 있으니 점심+커피 조합 가능.",
+        "원두 구매도 가능. 선물용으로 추천."
+      ]
+    },
+    {
+      "id": "la-colombe-tribeca",
+      "name": "La Colombe Coffee",
+      "category": "coffee",
+      "region": "manhattan", "area": "downtown",
+      "address": "319 Church St, New York, NY 10013",
+      "lat": 40.7194,
+      "lng": -74.0030,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$5~8",
+      "description": "드래프트 라떼 원조 발명지. 생우유 거품을 질소로 주입한 캔 라떼로 세계적으로 유명. Tribeca 본점.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What can I get you?",
+          "question_ko": "무엇으로 드릴까요?",
+          "tip": "Draft Latte가 이 곳의 발명품. 질소로 거품 낸 생크림 라떼. 꼭 먹어봐야 할 메뉴.",
+          "options": [
+            { "en": "Draft Latte, please.", "ko": "드래프트 라떼 주세요. (원조, 필수)", "recommended": true },
+            { "en": "Pure Black cold brew, please.", "ko": "퓨어 블랙 콜드브루 주세요.", "recommended": true },
+            { "en": "Cortado, please.", "ko": "코르타도 주세요." },
+            { "en": "Cappuccino, please.", "ko": "카푸치노 주세요." }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "For here or to go?",
+          "question_ko": "드시고 가세요, 포장이세요?",
+          "options": [
+            { "en": "For here.", "ko": "여기서 먹을게요.", "recommended": true },
+            { "en": "To go, please.", "ko": "포장이요." }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Draft Latte",
+          "name_ko": "드래프트 라떼",
+          "description_ko": "생우유 + 에스프레소를 질소로 주입해 크리미한 거품 생성. 캔으로도 판매. La Colombe가 발명한 메뉴.",
+          "recommended": true
+        },
+        {
+          "name": "Pure Black Cold Brew",
+          "name_ko": "퓨어 블랙 콜드브루",
+          "description_ko": "무가당 콜드브루. 진하고 깔끔함. 드래프트 라떼와 함께 대표 메뉴.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "드래프트 라떼는 이 곳이 원조. 한국 편의점 캔 라떼의 원형.",
+        "Tribeca 위치 — 9/11 메모리얼, 소호 관광 동선과 연결.",
+        "커피 한 잔 $5~7. 카드 OK. 팁 불필요.",
+        "캔 드래프트 라떼를 기념품처럼 구매 가능.",
+        "공간이 넓고 여유로움. 잠깐 쉬어가기 좋은 분위기."
+      ]
     }
   ]
 }
