@@ -12,6 +12,28 @@
       "tips": ["맨해튼 입구: Park Row & Centre St 부근", "왕복 약 2.4km, 40~50분 소요", "브루클린 쪽 DUMBO Washington St에서 찍는 브리지+빌딩 사진이 인스타 명소", "자전거 레인과 보행자 레인 구분 — 자전거 레인에 서지 말 것"]
     },
     {
+      "id": "statue-of-liberty-ferry",
+      "name_ko": "자유의 여신상 (무료 페리)",
+      "region": "manhattan", "area": "downtown", "category": "landmark",
+      "address": "4 Whitehall St, New York, NY 10004 (화이트홀 터미널)",
+      "lat": 40.7013, "lng": -74.0132,
+      "admission": "free", "admission_note": "무료 (스태튼 아일랜드 페리)",
+      "reservation": false, "hours": "24시간 (30분 간격 운항)",
+      "description_ko": "돈 한 푼 안 내고 자유의 여신상을 가장 가까이 볼 수 있는 방법. 통근용 공공 페리라 무료. 여신상 섬 상륙은 별도 유료.",
+      "tips": ["탑승 방법: 지하철 1호선 South Ferry역 또는 4·5호선 Bowling Green역 → 화이트홀 터미널 도보 3분", "30분마다 운항. 편도 25분 소요. 돌아오는 배도 무료", "여신상이 가장 잘 보이는 곳은 배 오른쪽(뱃머리 기준 우현) — 탑승 후 자리 잡기", "섬에 직접 상륙해 받침대·왕관 올라가려면 별도 유료 티켓(statueofnewyork.com) 필요", "일몰 시간대 페리를 타면 여신상+맨해튼 스카이라인 뷰 최고"]
+    },
+    {
+      "id": "whitney-museum",
+      "name_ko": "휘트니 미술관 (Whitney Museum)",
+      "region": "manhattan", "area": "downtown", "category": "museum",
+      "address": "99 Gansevoort St, New York, NY 10014",
+      "lat": 40.7396, "lng": -74.0089,
+      "admission": "paid", "admission_note": "유료 ($25) / 금요일 17~22시 무료 / 매달 둘째주 일요일 무료",
+      "reservation": "recommended", "hours": "10:30~18:00 (금요일 22:00)",
+      "description_ko": "미국 현대·동시대 미술 전문 미술관. 하이라인 남쪽 끝 바로 옆 위치. 허드슨강 뷰 테라스가 인상적.",
+      "tips": ["무료 입장 1: 금요일 오후 5시~10시 무료입장 (사전 예약 권장)", "무료 입장 2: 매달 둘째주 일요일 무료입장 (사전 예약 필수 — whitney.org)", "하이라인 산책 후 남쪽 끝에서 도보 1분 거리 — 동선 연계 완벽", "옥상 테라스에서 허드슨강 + 하이라인 뷰가 일품. 입장객 누구나 이용 가능", "첼시 마켓, Intelligentsia Coffee와 같은 블록 — 커피+관람 코스 추천"]
+    },
+    {
       "id": "high-line",
       "name_ko": "하이라인 (The High Line)",
       "region": "manhattan", "area": "downtown", "category": "park",
@@ -138,10 +160,10 @@
       "region": "manhattan", "area": "uptown", "category": "museum",
       "address": "1000 5th Ave, New York, NY 10028",
       "lat": 40.7794, "lng": -73.9632,
-      "admission": "paid", "admission_note": "유료 ($30)",
+      "admission": "paid", "admission_note": "유료 ($30) / 현대백화점 앱 무료 바우처",
       "reservation": false, "hours": "10:00~17:00 (금·토 21:00)",
       "description_ko": "세계 3대 미술관 중 하나. 이집트 신전부터 현대미술까지 5000년 인류 미술사를 한 건물에서. 센트럴파크 바로 옆.",
-      "tips": ["하루로는 부족. 관심 섹션(이집트/그리스/인상파) 미리 정하기", "옥상 테라스(Roof Garden) — 센트럴파크 뷰 최고, 4~10월 무료 개방", "오디오 가이드 앱(The Met) 미리 다운로드 추천", "입장 후 당일 재입장 가능"]
+      "tips": ["무료 입장 꿀팁: 현대백화점 앱 설치 → 검색창에 'MET' 검색 → 1인 2매 무료 입장 바우처 다운로드 가능!", "하루로는 부족. 관심 섹션(이집트/그리스/인상파) 미리 정하기", "옥상 테라스(Roof Garden) — 센트럴파크 뷰 최고, 4~10월 무료 개방", "오디오 가이드 앱(The Met) 미리 다운로드 추천", "입장 후 당일 재입장 가능"]
     },
     {
       "id": "amnh",
@@ -149,10 +171,10 @@
       "region": "manhattan", "area": "uptown", "category": "museum",
       "address": "200 Central Park West, New York, NY 10024",
       "lat": 40.7813, "lng": -73.9742,
-      "admission": "paid", "admission_note": "유료 ($28~)",
+      "admission": "paid", "admission_note": "유료 ($28~) / 매일 17:30~18:00 자율 기부제",
       "reservation": false, "hours": "10:00~17:30",
       "description_ko": "영화 '박물관이 살아있다!' 촬영지. 공룡 화석, 거대 고래 모형, 우주 전시 등 압도적인 규모. 어린이 동반 여행에 강력 추천.",
-      "tips": ["블루 웨일(Blue Whale) 모형이 걸린 해양생물 홀이 압도적", "공룡 화석 홀 — 실물 크기 티라노사우루스", "로즈 천문관(Hayden Planetarium)은 별도 티켓 필요", "센트럴파크 바로 서쪽 — 공원 산책과 함께 방문 추천"]
+      "tips": ["무료 입장 꿀팁: 매일 오후 4:30 입장 시 Pay-What-You-Wish(자율 기부제) 적용. 단 5:30 폐관이라 1시간 안에 관람해야 함", "블루 웨일(Blue Whale) 모형이 걸린 해양생물 홀이 압도적", "공룡 화석 홀 — 실물 크기 티라노사우루스", "로즈 천문관(Hayden Planetarium)은 별도 티켓 필요", "센트럴파크 바로 서쪽 — 공원 산책과 함께 방문 추천"]
     },
     {
       "id": "flushing-meadows",
