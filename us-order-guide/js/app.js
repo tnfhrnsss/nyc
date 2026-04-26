@@ -84,6 +84,7 @@ function initRegionTabs() {
   document.querySelectorAll('.region-tab').forEach(tab => {
     tab.addEventListener('click', () => {
       region = tab.dataset.region;
+      sessionStorage.setItem('nyc_region', region);
       document.querySelectorAll('.region-tab').forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       resetCatFilter();
@@ -113,8 +114,16 @@ function initSearch() {
 }
 
 async function init() {
+  const savedRegion = sessionStorage.getItem('nyc_region');
+  if (savedRegion) {
+    region = savedRegion;
+    document.querySelectorAll('.region-tab').forEach(t => {
+      t.classList.toggle('active', t.dataset.region === region);
+    });
+    setNiagaraMode(region === 'niagara');
+  }
   await loadStores();
-  renderList();
+  if (region !== 'niagara') renderList();
   initRegionTabs();
   initCatFilter();
   initSearch();
