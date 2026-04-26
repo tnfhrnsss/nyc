@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="description" content="뉴욕·퀸즈·워싱턴 D.C.·나이아가라 맛집 주문 가이드">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>NYC Guide</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1>🗽 NYC Guide</h1>
+</header>
+
+<!-- Region Tabs -->
+<div class="region-tabs">
+  <button class="region-tab active" data-region="downtown">다운타운</button>
+  <button class="region-tab" data-region="midtown">미드타운</button>
+  <button class="region-tab" data-region="uptown">어퍼사이드</button>
+  <button class="region-tab" data-region="queens">Queens</button>
+  <button class="region-tab" data-region="washington">Washington D.C.</button>
+  <button class="region-tab" data-region="niagara">Niagara</button>
+</div>
+
+<!-- Offline Banner -->
+<div id="offline-banner" class="offline-banner hidden">오프라인 — 마지막 캐시 날씨 표시 중</div>
+
+<!-- Weather Strip -->
+<div class="weather-section">
+  <div id="weather-scroll" class="weather-scroll">
+    <div class="w-loading">날씨 불러오는 중…</div>
+  </div>
+</div>
+
+<!-- Search -->
+<div id="store-section">
+  <div class="search-wrap">
+    <input id="search-input" type="search" class="search-input" placeholder="🔍  가게 이름 또는 카테고리 검색">
+  </div>
+
+  <!-- Category Filter -->
+  <div class="cat-row">
+    <button class="cat-chip active" data-cat="all">전체</button>
+    <button class="cat-chip" data-cat="bagel">🥯 베이글</button>
+    <button class="cat-chip" data-cat="burger">🍔 버거</button>
+    <button class="cat-chip" data-cat="pizza">🍕 피자</button>
+    <button class="cat-chip" data-cat="deli">🥪 델리</button>
+    <button class="cat-chip" data-cat="coffee">☕ 커피</button>
+    <button class="cat-chip" data-cat="bakery">🥐 베이커리</button>
+    <button class="cat-chip" data-cat="taco">🌮 타코</button>
+    <button class="cat-chip" data-cat="ramen">🍜 라멘</button>
+    <button class="cat-chip" data-cat="other">🍽️ 기타</button>
+  </div>
+
+  <!-- Store List -->
+  <div id="store-list" class="store-list"></div>
+</div>
+
+<!-- Bottom Nav -->
+<nav class="bottom-nav">
+  <a class="nav-item active" href="index.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><line x1="7" y1="2" x2="7" y2="11"/><path d="M21 15V2a5 5 0 0 0-5 5v6h3.5a1.5 1.5 0 0 1 0 3H16v3a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3h.5a1.5 1.5 0 0 0 0-3H21z"/>
+    </svg>
+  </a>
+  <a class="nav-item" href="spots.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+    </svg>
+  </a>
+  <a class="nav-item" href="map.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="3,6 9,3 15,6 21,3 21,18 15,21 9,18 3,21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/>
+    </svg>
+  </a>
+</nav>
+
+<script src="js/weather.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

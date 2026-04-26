@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>스팟 - NYC Guide</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="app-header">
+  <h1>📍 관광 스팟</h1>
+</header>
+
+<!-- Region Tabs -->
+<div class="region-tabs">
+  <button class="region-tab active" data-region="downtown">다운타운</button>
+  <button class="region-tab" data-region="midtown">미드타운</button>
+  <button class="region-tab" data-region="uptown">어퍼사이드</button>
+  <button class="region-tab" data-region="queens">Queens</button>
+  <button class="region-tab" data-region="washington">Washington D.C.</button>
+</div>
+
+<!-- Offline Banner -->
+<div id="offline-banner" class="offline-banner hidden">오프라인 — 마지막 캐시 날씨 표시 중</div>
+
+<!-- Weather -->
+<div class="weather-section">
+  <div id="weather-scroll" class="weather-scroll">
+    <div class="w-loading">날씨 불러오는 중…</div>
+  </div>
+</div>
+
+<!-- Category Filter -->
+<div class="cat-row">
+  <button class="cat-chip active" data-cat="all">전체</button>
+  <button class="cat-chip" data-cat="landmark">🗽 랜드마크</button>
+  <button class="cat-chip" data-cat="museum">🏛️ 박물관</button>
+  <button class="cat-chip" data-cat="park">🌿 공원</button>
+  <button class="cat-chip" data-cat="view">🔭 전망대</button>
+  <button class="cat-chip" data-cat="market">🛍️ 마켓</button>
+</div>
+
+<!-- Spot List -->
+<div id="spot-list" class="store-list"></div>
+
+<!-- Bottom Nav -->
+<nav class="bottom-nav">
+  <a class="nav-item" href="index.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><line x1="7" y1="2" x2="7" y2="11"/><path d="M21 15V2a5 5 0 0 0-5 5v6h3.5a1.5 1.5 0 0 1 0 3H16v3a1 1 0 0 0 1 1h1a1 1 0 0 0 1-1v-3h.5a1.5 1.5 0 0 0 0-3H21z"/>
+    </svg>
+  </a>
+  <a class="nav-item active" href="spots.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+    </svg>
+  </a>
+  <a class="nav-item" href="map.html">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="3,6 9,3 15,6 21,3 21,18 15,21 9,18 3,21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/>
+    </svg>
+  </a>
+</nav>
+
+<script src="js/weather.js"></script>
+<script src="js/spots.js"></script>
+</body>
+</html>

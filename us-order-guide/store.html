@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <title>가게 상세 - NYC Guide</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Sticky header with back + name -->
+<header class="app-header">
+  <button id="back-btn" class="back-btn">← 뒤로</button>
+  <span id="hdr-name" class="hdr-store-name"></span>
+</header>
+
+<!-- Store Info (scrollable) -->
+<div class="store-info-section">
+  <div id="store-detail-name" class="store-detail-name"></div>
+  <div id="store-detail-meta" class="store-detail-meta"></div>
+  <div id="store-detail-desc" class="store-detail-desc"></div>
+  <div id="store-detail-address" class="store-detail-address"></div>
+  <a id="maps-btn" class="maps-btn" href="#" target="_blank" rel="noopener noreferrer">
+    🗺️ Google Maps로 보기
+  </a>
+</div>
+
+<!-- Sticky Tabs -->
+<div class="detail-tabs">
+  <button class="detail-tab active" data-tab="ordering">📋 주문 흐름</button>
+  <button class="detail-tab" data-tab="sauce">🧂 소스·메뉴</button>
+  <button class="detail-tab" data-tab="tips">💡 팁</button>
+</div>
+
+<!-- Tab: Ordering Flow -->
+<div id="tab-ordering" class="tab-content active">
+  <div id="ordering-flow" class="ordering-flow"></div>
+</div>
+
+<!-- Tab: Sauce Guide -->
+<div id="tab-sauce" class="tab-content">
+  <div id="sauce-guide" class="sauce-guide"></div>
+</div>
+
+<!-- Tab: Tips -->
+<div id="tab-tips" class="tab-content">
+  <div id="tips-section" class="tips-section"></div>
+</div>
+
+<!-- Bottom Nav -->
+<nav class="bottom-nav">
+  <a class="nav-item" href="index.html"><span class="nav-icon">🍴</span>푸드</a>
+  <a class="nav-item" href="spots.html"><span class="nav-icon">🏛️</span>스팟</a>
+  <a class="nav-item" href="map.html"><span class="nav-icon">🗺️</span>지도</a>
+</nav>
+
+<script src="js/store.js"></script>
+</body>
+</html>

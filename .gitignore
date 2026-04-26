@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+*.iml
+.idea/
+*.swp
+*.swo
+
+# Claude Code internal
+.claude/
+
+# Node (혹시 모를 경우)
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
