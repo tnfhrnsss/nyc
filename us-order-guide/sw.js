@@ -1,4 +1,4 @@
-const CACHE = 'nyc-guide-v1';
+const CACHE = 'nyc-guide-v3';
 
 const APP_SHELL = [
   './',

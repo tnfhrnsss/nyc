@@ -25,7 +25,9 @@ function renderHeader(s) {
   document.getElementById('hdr-name').textContent = s.name;
   document.getElementById('store-detail-name').textContent = s.name;
   document.getElementById('store-detail-desc').textContent = s.description;
-  document.getElementById('store-detail-address').textContent = '📍 ' + s.address;
+  const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(s.address)}`;
+  document.getElementById('store-detail-address').innerHTML =
+    `<a href="${mapsUrl}" target="_blank" rel="noopener noreferrer">📍 ${s.address}</a>`;
 
   document.getElementById('store-detail-meta').innerHTML = `
     <span class="meta-tag">${CAT_LABELS[s.category] || s.category}</span>
@@ -34,8 +36,6 @@ function renderHeader(s) {
     ${s.has_seating  ? '<span class="meta-tag">🪑</span>' : ''}
   `;
 
-  const mapsBtn = document.getElementById('maps-btn');
-  mapsBtn.href = `https://maps.google.com/?q=${encodeURIComponent(s.address)}`;
 }
 
 function renderOrdering(flow) {

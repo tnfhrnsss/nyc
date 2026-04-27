@@ -2786,6 +2786,161 @@
         "캔 드래프트 라떼를 기념품처럼 구매 가능.",
         "공간이 넓고 여유로움. 잠깐 쉬어가기 좋은 분위기."
       ]
+    },
+    {
+      "id": "dallas-bbq-times-square",
+      "name": "Dallas BBQ Times Square",
+      "category": "other",
+      "region": "manhattan", "area": "midtown",
+      "address": "241 W 42nd St, New York, NY 10036",
+      "lat": 40.7571,
+      "lng": -73.9913,
+      "tip_expected": true,
+      "has_seating": true,
+      "price_range": "$15~30",
+      "description": "뉴욕 현지인이 사랑하는 미국식 BBQ 체인. 갈비(리브), 치킨, 버거를 양껏 즐길 수 있고 가격 대비 만족도 최고. 타임스스퀘어 도보 거리.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "How many in your party?",
+          "question_ko": "몇 분이세요?",
+          "tip": "인원수에 따라 자리 안내. 웨이팅 있을 수 있음.",
+          "options": [
+            { "en": "Two, please.", "ko": "두 명이요.", "recommended": false },
+            { "en": "Four, please.", "ko": "네 명이요.", "recommended": false }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "What can I get for you today?",
+          "question_ko": "주문 받아도 될까요?",
+          "tip": "Baby Back Ribs(베이비백 립)가 대표 메뉴. Half rack(하프 랙)으로도 주문 가능.",
+          "options": [
+            { "en": "Can I get the Half Rack of Baby Back Ribs?", "ko": "베이비백 립 하프 랙 주세요.", "recommended": true },
+            { "en": "I'll have the BBQ Chicken platter.", "ko": "BBQ 치킨 플래터 주세요.", "recommended": true },
+            { "en": "Can I get the Combo platter for two?", "ko": "2인 콤보 플래터 주세요.", "recommended": false }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "What sides would you like?",
+          "question_ko": "사이드 메뉴는 뭘로 하시겠어요?",
+          "tip": "콘브레드, 코울슬로, 맥앤치즈가 인기 사이드.",
+          "options": [
+            { "en": "Mac and cheese, please.", "ko": "맥앤치즈 주세요.", "recommended": true },
+            { "en": "Coleslaw, please.", "ko": "코울슬로 주세요.", "recommended": false },
+            { "en": "Corn bread, please.", "ko": "콘브레드 주세요.", "recommended": false }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "BBQ Sauce",
+          "name_ko": "BBQ 소스",
+          "description_ko": "테이블에 비치된 달콤하고 스모키한 바베큐 소스. 립과 치킨에 뿌려 먹으면 최고.",
+          "recommended": true
+        }
+      ],
+      "tips": [
+        "타임스스퀘어 도보 2분. 관광 후 든든하게 먹기 좋음.",
+        "포션이 매우 큼 — 2인이면 하프 랙 + 사이드 2개로 충분.",
+        "런치 타임(11~15시)이 웨이팅 없이 들어가기 좋음.",
+        "팁은 18~22% 권장. 카드 OK.",
+        "대형 칵테일(Fishbowl)이 유명하지만 비쌈 — 음식에 집중 추천."
+      ]
+    },
+    {
+      "id": "cava-midtown",
+      "name": "CAVA",
+      "category": "other",
+      "region": "manhattan", "area": "midtown",
+      "address": "11 W 42nd St, New York, NY 10036",
+      "lat": 40.7536,
+      "lng": -73.9822,
+      "tip_expected": false,
+      "has_seating": true,
+      "price_range": "$12~16",
+      "description": "지중해식 패스트캐주얼 체인. 치폴레처럼 직접 재료를 골라 그레인볼·팔라펠랩을 만드는 방식. 건강하고 맛있어서 현지인에게 인기.",
+      "ordering_flow": [
+        {
+          "step": 1,
+          "question_en": "What base would you like?",
+          "question_ko": "베이스 선택해 주세요.",
+          "tip": "그레인볼(Grain Bowl)이 가장 인기. 탄수화물 조절 원하면 Greens(샐러드 베이스) 선택.",
+          "options": [
+            { "en": "Grain bowl, please.", "ko": "그레인볼로 주세요.", "recommended": true },
+            { "en": "Greens base, please.", "ko": "그린스(샐러드) 베이스로 주세요.", "recommended": false },
+            { "en": "Pita, please.", "ko": "피타(랩)로 주세요.", "recommended": false }
+          ]
+        },
+        {
+          "step": 2,
+          "question_en": "Which protein?",
+          "question_ko": "단백질(프로틴) 선택해 주세요.",
+          "tip": "Grilled Chicken(그릴드 치킨)과 Falafel(팔라펠)이 대표. 스파이시 램 미트볼도 강추.",
+          "options": [
+            { "en": "Grilled chicken, please.", "ko": "그릴드 치킨이요.", "recommended": true },
+            { "en": "Spicy lamb meatballs, please.", "ko": "스파이시 램 미트볼이요.", "recommended": true },
+            { "en": "Falafel, please.", "ko": "팔라펠이요.", "recommended": false }
+          ]
+        },
+        {
+          "step": 3,
+          "question_en": "Any dips or spreads?",
+          "question_ko": "딥소스 추가하시겠어요?",
+          "tip": "Hummus(후무스)와 Tzatziki(차치키)는 기본 무료 추가. 둘 다 넣으면 풍미 업.",
+          "options": [
+            { "en": "Hummus and tzatziki, please.", "ko": "후무스랑 차치키 둘 다 주세요.", "recommended": true },
+            { "en": "Just hummus, please.", "ko": "후무스만 주세요.", "recommended": false }
+          ]
+        },
+        {
+          "step": 4,
+          "question_en": "Any toppings?",
+          "question_ko": "토핑 추가하시겠어요?",
+          "tip": "Pickled onions(피클드 어니언), Cucumber(오이), Tomato 추천. 다 무료.",
+          "options": [
+            { "en": "Pickled onions, cucumber, and tomato please.", "ko": "피클드 어니언, 오이, 토마토 넣어주세요.", "recommended": true }
+          ]
+        },
+        {
+          "step": 5,
+          "question_en": "Which dressing?",
+          "question_ko": "드레싱 선택해 주세요.",
+          "tip": "Lemon Herb Tahini(레몬 허브 타히니)가 가장 무난하고 인기 있음.",
+          "options": [
+            { "en": "Lemon herb tahini, please.", "ko": "레몬 허브 타히니요.", "recommended": true },
+            { "en": "Greek vinaigrette, please.", "ko": "그릭 비네그레트요.", "recommended": false }
+          ]
+        }
+      ],
+      "sauce_guide": [
+        {
+          "name": "Hummus",
+          "name_ko": "후무스",
+          "description_ko": "병아리콩을 갈아 만든 중동식 딥소스. 고소하고 크리미함. CAVA의 핵심 재료.",
+          "recommended": true
+        },
+        {
+          "name": "Tzatziki",
+          "name_ko": "차치키",
+          "description_ko": "요거트 + 오이 + 마늘 그릭 소스. 상큼하고 시원한 맛.",
+          "recommended": true
+        },
+        {
+          "name": "Harissa",
+          "name_ko": "하리사",
+          "description_ko": "북아프리카식 매운 고추 페이스트. 매운 것 좋아한다면 추가 추천.",
+          "recommended": false
+        }
+      ],
+      "tips": [
+        "42번가 한복판 — 타임스스퀘어·브라이언트파크 관광 사이 점심으로 최적.",
+        "주문 방식이 치폴레와 동일 — 줄 서서 재료 하나씩 선택.",
+        "1인 $12~16. 카드 OK. 팁 불필요(카운터 주문).",
+        "채식·비건 옵션 풍부 — 팔라펠+후무스+채소 조합으로 완전 비건 가능.",
+        "런치 피크타임(12~13시) 줄 길 수 있음. 12시 전 방문 추천."
+      ]
     }
   ]
 }
