@@ -56,6 +56,17 @@
       "tips": ["Los Tacos No.1 — 현금만 가능", "The Lobster Place — 랍스터 롤 뉴욕 최상급", "실내라 날씨 상관없이 방문 가능", "하이라인 남쪽 출구와 바로 연결"]
     },
     {
+      "id": "trader-joes-union-sq",
+      "name_ko": "트레이더 조 (Trader Joe's)",
+      "region": "manhattan", "area": "downtown", "category": "market",
+      "address": "111 E 14th St, New York, NY 10003",
+      "lat": 40.7352, "lng": -73.9897,
+      "admission": "free", "admission_note": "무료 입장",
+      "reservation": false, "hours": "월~일 8:00~22:00",
+      "description_ko": "뉴욕 여행자 필수 마트. 저렴한 가격에 품질 좋은 자체 브랜드 제품이 가득. 간식·냉동식품·와인·커피가 특히 저렴. 줄이 길어도 회전이 빨라 금방 입장 가능.",
+      "tips": ["자체 브랜드(PB) 제품이 핵심 — Everything But The Bagel Seasoning, 냉동 만두, 그래놀라바 강력 추천", "Mandarin Orange Chicken(냉동 오렌지 치킨) — 뉴요커 최애 냉동식품", "와인·맥주 가격이 매우 저렴 (와인 $5~10)", "입구에서 장바구니 대신 바구니를 챙기면 계산이 훨씬 빠름", "현금·카드 모두 가능, 자체 앱 없음 — 가격이 전부 저렴함"]
+    },
+    {
       "id": "soho",
       "name_ko": "소호 (SoHo)",
       "region": "manhattan", "area": "downtown", "category": "landmark",
@@ -87,6 +98,17 @@
       "reservation": true, "hours": "10:00~21:00",
       "description_ko": "허드슨 야즈의 상징적 조형물. 154개 계단이 얽혀 16층 높이로 올라가는 독특한 벌집 구조. 하이라인 북쪽 끝과 바로 연결되어 함께 방문하기 좋음.",
       "tips": ["허드슨야즈 공식 사이트에서 무료 예약 후 방문", "하이라인 끝에서 도보로 바로 연결됨 — 함께 코스로 추천", "The Shed(공연·전시 공간)도 같은 허드슨야즈 내 위치", "주변 쇼핑몰(Hudson Yards Shops)에서 쇼핑도 가능"]
+    },
+    {
+      "id": "edge",
+      "name_ko": "엣지 전망대 (Edge)",
+      "region": "manhattan", "area": "midtown", "category": "view",
+      "address": "30 Hudson Yards, New York, NY 10001",
+      "lat": 40.7537, "lng": -74.0022,
+      "admission": "paid", "admission_note": "유료 ($38~)",
+      "reservation": "recommended", "hours": "9:00~24:00 (금·토 1:00)",
+      "description_ko": "허드슨 야즈 100층 높이의 야외 전망대. 뉴욕 최고 높이의 야외 스카이덱. 유리 바닥 구간이 있어 아찔한 경험 가능. 베슬에서 도보 1분.",
+      "tips": ["온라인 사전 예약 시 줄 없이 입장 가능 — edgenyc.com", "유리 바닥(Sky Deck) 구간은 별도 구역, 고소공포증 주의", "베슬·하이라인과 함께 허드슨 야즈 원스톱 코스로 추천", "밤 9시 이후 야경 방문이 매우 아름다움", "엠파이어 스테이트·탑 오브 더 록보다 더 높아 뉴욕 전체 조망 가능"]
     },
     {
       "id": "times-square",
@@ -133,6 +155,17 @@
       "tips": ["메인 콩코스 2층 발코니에서 내려다보는 뷰가 명당", "지하 Grand Central Market에서 간식 쇼핑 가능", "속삭임의 회랑(Whispering Gallery): 아치 끝에서 속삭이면 반대편에서 들림", "무료 입장이라 잠깐 들러도 충분"]
     },
     {
+      "id": "nypl",
+      "name_ko": "뉴욕 공립도서관 (NYPL)",
+      "region": "manhattan", "area": "midtown", "category": "landmark",
+      "address": "476 5th Ave, New York, NY 10018",
+      "lat": 40.7532, "lng": -73.9822,
+      "admission": "free", "admission_note": "무료",
+      "reservation": false, "hours": "월·목·금·토 10:00~18:00 / 화·수 10:00~20:00 / 일 13:00~17:00",
+      "description_ko": "1911년 개관. 5번가와 42번가 코너에 위치한 보자르 양식 석조 건물. 입구를 지키는 두 마리 사자 조각상이 상징. 내부 열람실은 그 자체로 예술.",
+      "tips": ["입구 양쪽 사자상 이름: Patience(인내)와 Fortitude(불굴) — 포토스팟", "3층 Rose Main Reading Room — 천장 벽화와 황금빛 조명이 압도적", "그랜드 센트럴에서 도보 5분, 브라이언트 파크 바로 옆", "무료 입장이라 잠깐 들러 내부 구경만 해도 충분", "화·수요일 오후 8시까지 연장 운영"]
+    },
+    {
       "id": "moma",
       "name_ko": "현대미술관 (MoMA)",
       "region": "manhattan", "area": "midtown", "category": "museum",
@@ -142,6 +175,28 @@
       "reservation": false, "hours": "10:30~17:30 (금요일 21:00)",
       "description_ko": "세계 최고 수준의 현대미술관. 반 고흐 '별이 빛나는 밤', 피카소, 워홀 등 다수 소장. 5개 층에 걸친 방대한 컬렉션.",
       "tips": ["금요일 저녁 연장 운영", "오디오 가이드 앱(MoMA) 미리 다운로드 추천", "조각 정원(Abby Aldrich Rockefeller Sculpture Garden) — 야외 무료 개방일 있음", "근처 무료 갤러리도 함께 방문 추천"]
+    },
+    {
+      "id": "hmart-koreatown",
+      "name_ko": "H Mart 코리아타운",
+      "region": "manhattan", "area": "midtown", "category": "market",
+      "address": "39 W 32nd St, New York, NY 10001",
+      "lat": 40.7483, "lng": -73.9882,
+      "admission": "free", "admission_note": "무료 입장",
+      "reservation": false, "hours": "월~일 8:00~23:00",
+      "description_ko": "뉴욕 코리아타운 중심의 한인 마트. 한국 라면·과자·음료·김치·반찬 등 한국 식품 총망라. 집 떠나온 한국인의 성지. 건물 내 한국 식당가도 함께 있음.",
+      "tips": ["농심·오뚜기·삼양 라면 전 제품 구비", "한국 과자·음료 미국에서 가장 저렴하게 구매 가능한 곳 중 하나", "2~3층 푸드코트에 한국 식당 다수 — 순대국·떡볶이·김밥 등", "코리아타운 32번가 일대에 한국 식당·노래방·PC방이 모여 있음", "짐이 많으면 근처 한국 식료품점 여럿과 비교하며 쇼핑 가능"]
+    },
+    {
+      "id": "whole-foods-columbus",
+      "name_ko": "홀푸드 마켓 (Whole Foods)",
+      "region": "manhattan", "area": "midtown", "category": "market",
+      "address": "10 Columbus Circle, New York, NY 10019",
+      "lat": 40.7684, "lng": -73.9831,
+      "admission": "free", "admission_note": "무료 입장",
+      "reservation": false, "hours": "월~일 7:00~22:00",
+      "description_ko": "아마존 계열 프리미엄 유기농 마트. 콜럼버스 서클 쇼핑몰 타임워너 센터 지하에 위치. 핫바·샐러드바·스시바 등 즉석 음식 코너가 특히 유명. 센트럴파크 직전 위치.",
+      "tips": ["핫바(Hot Bar) — 무게 달아 계산, 다양한 조리 음식으로 점심 대용 가능 ($10~15)", "아마존 프라임 회원은 10% 할인 — 미국 아마존 계정 있으면 앱에서 QR 코드 사용", "시즈닝·올리브오일·견과류 등 식품 기념품 구매하기 좋음", "콜럼버스 서클 2층 테라스에서 센트럴파크 뷰 무료 감상 가능", "일반 식품은 비싸지만 즉석 음식·커피는 합리적인 편"]
     },
     {
       "id": "central-park",
@@ -186,6 +241,17 @@
       "reservation": false, "hours": "24시간",
       "description_ko": "1964년 세계박람회 개최지. 유니스피어(대형 지구 조형물), 뉴욕 과학관 등이 있는 퀸즈 최대 공원. 메츠 홈구장 인근.",
       "tips": ["7호선 Mets-Willets Point역 하차 도보 5분", "유니스피어(Unisphere) — 높이 43m 지구 모형, 무료 포토존", "Queens Museum(현대미술관)도 공원 내 위치 (유료)", "플러싱 맛집 탐방과 함께 방문하기 좋음"]
+    },
+    {
+      "id": "hmart-flushing",
+      "name_ko": "H Mart 플러싱",
+      "region": "queens", "area": null, "category": "market",
+      "address": "136-18 39th Ave, Flushing, NY 11354",
+      "lat": 40.7569, "lng": -73.8317,
+      "admission": "free", "admission_note": "무료 입장",
+      "reservation": false, "hours": "월~일 8:00~22:00",
+      "description_ko": "플러싱 한인타운 중심의 대형 H Mart. 코리아타운점보다 규모가 크고 품목이 더 다양. 한국·중국·일본·동남아 식품이 모두 있는 아시아 종합 슈퍼마켓.",
+      "tips": ["7호선 Flushing-Main St역에서 도보 5분", "플러싱 한식당 탐방 전후로 장보기 최적 동선", "한국 식재료·냉동식품 가격이 맨해튼보다 저렴", "2층에 푸드코트 — 한국·중국·대만 음식 저렴하게 이용 가능", "반찬·김치·떡 등 즉석 식품 코너가 특히 잘 갖춰져 있음"]
     },
     {
       "id": "lincoln-memorial",

@@ -464,6 +464,144 @@ body.map-page { padding-bottom: 0; }
 .spot-address { margin-top: 10px; font-size: 13px; }
 .spot-address a { color: var(--primary); text-decoration: none; }
 
+/* ── Restroom Page ── */
+.wc-map {
+  height: 260px;
+  width: 100%;
+  background: #e8f0fe;
+}
+
+.wc-initial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 48px 24px;
+  text-align: center;
+}
+.wc-initial-desc {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.wc-locate-btn {
+  padding: 13px 28px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .15s;
+}
+.wc-locate-btn:disabled { background: #93c5fd; cursor: not-allowed; }
+
+.wc-info {
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+.wc-refresh-btn, .wc-expand-btn {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.wc-list {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wc-card {
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 14px 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.07);
+}
+.wc-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.wc-num {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #059669;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wc-card-body { flex: 1; min-width: 0; }
+.wc-name { font-size: 15px; font-weight: 700; color: var(--text); }
+.wc-meta { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+.wc-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.wc-badge-free   { background: #D1FAE5; color: #065F46; }
+.wc-badge-paid   { background: #FEF3C7; color: #92400E; }
+.wc-badge-access { background: #EFF6FF; color: var(--primary); }
+.wc-badge-wc     { background: #F3F4F6; color: #374151; }
+.wc-hours {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.wc-dist {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 800;
+  color: #059669;
+  white-space: nowrap;
+}
+.wc-maps-btn {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  padding: 6px 12px;
+  background: #EFF6FF;
+  border-radius: 7px;
+}
+.wc-expand-btn { display: block; margin-top: 12px; font-size: 14px; }
+
+.wc-pin {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #059669;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
 /* ── Offline Banner ── */
 .offline-banner {
   text-align: center;
