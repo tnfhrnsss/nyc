@@ -6,6 +6,8 @@
 
 > **라이브**: https://tnfhrnsss.github.io/nyc/us-order-guide/
 
+![앱 스크린샷](screenshot.png)
+
 ---
 
 ## 주요 기능
