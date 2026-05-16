@@ -6,7 +6,7 @@
 
 > **라이브**: https://tnfhrnsss.github.io/nyc/us-order-guide/
 
-![앱 스크린샷](screenshot.png)
+<img src="screenshot.png" width="300" alt="앱 스크린샷">
 
 ---
 
